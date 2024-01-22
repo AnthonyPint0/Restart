@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+
+#pay_form{
+    background-color: beige;
+    margin: 20px;
+    border: 2px solid rgba(73, 72, 72, 0.301);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+p{
+    margin-bottom: 0px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.cards{
+    width: 80px;
+    height: 40px;
+}
+
+#paynow{
+    background-color: hsl(135, 91%, 30%);
+    color: white;
+    width:99.7%;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#paynow:hover{
+    background-color: hsl(135, 72%, 40%);
+    transition: 1sec;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 99%;
+    height: 25px;
+}
+
+fieldset{
+    background-color: rgb(255, 255, 255);
+}
+
+textarea{
+    width: 99%;
+}
+
+#card_type{
+    height: 30px;
+}
+
+label.imp{
+    color: red;
+}

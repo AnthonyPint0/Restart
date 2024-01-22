@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apni Kaksha | Home</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form id="pay_form">
+        <h1>Payment Form</h1>
+        <hr>
+        <h2>User Information</h2>
+        <p>Name: <label class="imp">*</label></p><input type="text" required><br><br>
+        <fieldset>
+            <legend>Gender</legend>
+            <label id="gender">Male</label><input type="radio">&nbsp;&nbsp;&nbsp;<label id="gender">Female</label><input type="radio">
+        </fieldset>
+        <p>Address:</p><textarea name="Address" id="address" cols="20" rows="5" placeholder="Enter your Address"></textarea>
+        <p>Email: <label class="imp">*</label></p><input type="email" placeholder="antonio18@gmail.com" required>
+        <p>Pincode:</p><input type="number" placeholder="123456"><br><br>
+        <hr>
+        <h1>Payment Information</h1>            
+        <p>Accpeted Cards</p>
+        <img src="../../Image/visa.png" alt="visa" class="cards">
+        <img src="../../Image/rupay.png" alt="rupay" class="cards">
+        <img src="../../Image/mastercard.png" alt="mastercard" class="cards">
+        <img src="../../Image/polar.png" alt="polar" class="cards">
+        <p>Card Type: <label class="imp">*</label></p>
+        <select name="card_type" id="card_type" required>
+            <option value="">--Select Card type--</option>
+            <option value="visa">VISA</option>
+            <option value="rupay">RuPay</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="polar">Polar</option>
+        </select>
+        <p>Card Number: <label class="imp">*</label></p><input type="number" required>
+        <p>Expiration Date <label class="imp">*</label></p><input type="date" required>
+        <p>CVV <label class="imp">*</label></p><input type="password" required><br>
+        <input type="submit" id="paynow" value="Pay Now">
+    </form>
+</body>
+</html>

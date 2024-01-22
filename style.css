@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 232, 187);
+    padding: 20px;
+}
+
+#counterBox{
+    height: 300px;
+    width: 390px;
+    text-align: center;
+    margin: auto;
+    background-color: azure;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(56, 55, 55, 0.397);
+}
+
+#title{
+    color: rgb(28, 127, 214);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#counter{
+    font-family: Helvetica;
+    font-size: 8em;
+}
+
+button{
+    border: 1.5px solid black;
+    border-radius: 3px;
+    font-weight: 550;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.219);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(40, 137, 194);
+}
+
+button:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    background-color: hsl(212, 77%, 45%);
+    transition: 0.25s;
+}
+
+button:active{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    background-color: hsl(212, 46%, 75%);
+    color: black;
+    transition: 0.25s;
+}
+
+#inputBox{
+    width: 150px;
+    height: 24px;
+    font-size: 0.8em;
+    border: 1.5px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+#diceImages{
+    height: 50px;
+    margin: 25px;
+}
+
+#diceImages img{
+    height: 100px;
+    width: 120px;
+    margin: 3px;
+}
+
+#numBox{
+    width: 45px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+#numBox::selection{
+    background-color: black;
+    color: greenyellow;
+}
+
+#checkBox .checkcols{
+    width: 100px;
+    float: left;
+    
+}
+
+#error{
+    color: red;
+}

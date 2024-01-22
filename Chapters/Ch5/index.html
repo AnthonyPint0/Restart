@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+    <script>
+    document.getElementById("name").innerHTML = "Hello JavaScript!"
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Contact Form</h1>
+        <h4>Please fill all the texts in the fields.</h3>
+    </header>
+    <div id="main">
+        <p id="label">Your Name:</p>
+        <input type="text" name="full_name" id="name" placeholder="Your Full Name">
+        <p>Your Email:</p>
+        <input type="email" name="email" id="email" placeholder="Valid Email Address">
+        <p>Message:</p>
+        <textarea name="Message" id="Message" cols="20" rows="10" placeholder="Your Message to Us"></textarea>
+        <p>Subject:</p>
+        <input type="text" name="" id="" placeholder="Job Inquiry">
+        <input type="submit" id="send" value="Send"><br><br>
+        <button type="button" onclick='document.getElementById("label").innerHTML = "Hello JavaScript!"'>Why</button>
+        <button type="button" onclick='document.getElementById("label").innerHTML = "Your Name:"'>Normal</button>
+    </div>
+</body>
+</html>

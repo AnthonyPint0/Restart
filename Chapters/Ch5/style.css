@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    height: 99vh;
+}
+
+header{
+    background-color: rgb(127, 160, 78);
+    color: #fff;
+    
+    padding: 10px;
+}
+
+#main{
+    background-color: #eeece7;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 0.9em;
+}

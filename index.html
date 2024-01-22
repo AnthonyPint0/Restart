@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="counterBox">
+        <h1 id="title">Password Generator</h2><br>
+        <label for="numBox">Length:</label>
+        <input type="number" id="numBox"><br><br>
+        <div class="checkcols">
+            <input type="checkbox" name="chars" id="lowerC"> Lowercase Characters: 
+            <input type="checkbox" name="chars" id="upperC"> Uppercase Characters:<br>
+        </div>
+        <div class="checkcols">
+            <input type="checkbox" name="chars" id="numberC"> Numbers:
+            <input type="checkbox" name="chars" id="symbolC"> Symbols:<br>
+        </div>
+        <br><label for="inputBox">Generated Password:</label>
+        <input type="text" id="inputBox" readonly><br><br>
+        <button id="mySubmit" type="submit">Generator</button><br><br>
+        <p id="error"></p>
+            
+        <div id="result"></div>   
+    </div><br>
+    <div id="diceImages"></div>
+    <script src="script.js"></script>
+</body>
+</html>

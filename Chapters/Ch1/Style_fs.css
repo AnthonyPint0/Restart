@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(69, 133, 27);
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: whitesmoke;
+}
+
+#image{
+    float: left;
+}
+
+#txt1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(189, 238, 10);
+}
+
+#bruh1{
+    height: 200px;
+    margin: 20px;
+}
+
+.sped{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(117, 114, 114);
+}
+
+#hd_1{
+    height: 240px;
+}
+
+.lis{
+    color: aliceblue;
+    cursor: help;
+}
+
+#bruh2{
+    height: 200px;
+    float: right;
+    margin: 10px;
+}
+
+h3{
+    color: whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+table,td,tr,th{
+    text-align: center;
+    border: 2px solid rgb(134, 31, 39);
+    color: aliceblue;
+    border-collapse: collapse;
+    padding: 5px;
+                             
+}
+
+td,th,tr{
+    margin: 0px;
+}
+
+hr{
+    margin: 20px 0px 20px 0px;
+}
